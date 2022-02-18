@@ -71,7 +71,6 @@ section#products .right_lightning {
     right: 0;
     bottom: 16%;
     width: 23%;
-
 }
 .product-items .mojito:before {
     background: none;
@@ -274,6 +273,9 @@ section#products .social-items .social-item:hover {
 
     #products .title .text{
         margin-bottom: 7rem;
+    }
+    section#products .left_lightning, section#products .right_lightning {
+        display: none;
     }
 }
 
