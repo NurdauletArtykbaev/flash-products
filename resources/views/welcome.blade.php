@@ -68,19 +68,18 @@
     </div>
     <div class="container">
             <div class="social-items">
-                <div class="social-item">
-                    <img src="{{ asset('i/icon-social-facebook.png') }} " width="54" height="54" alt="facebook">
+{{--                <div class="social-item">--}}
+{{--                    <img src="{{ asset('i/icon-social-facebook.png') }} " width="54" height="54" alt="facebook">--}}
 
-                </div>
-                <div class="social-item">
-                    <img src="{{ asset('i/icon-social-vk.png') }}" width="54" height="54" alt="vk">
-                </div>
-                <a class="social-item" href="https://flashupenergy.kz/instagram" target="_blank">
+{{--                </div>--}}
+                <a class="social-item" href="https://www.youtube.com/channel/UCKp-vbdqTgNQ3ndw6XuDXgA" target="_blank">
+                    <img src="{{ asset('i/icon-social-youtube.png') }}"
+                         width="67" height="67" alt="youtube">
+                </a>
+                <a class="social-item" href="https://www.instagram.com/flashup.kz/?igshid=1zthkaj0almj" target="_blank">
                     <img src="{{ asset('i/icon-social-insta.png') }}" width="277" height="53" alt="insta">
                 </a>
         </div>
-
-
     </div>
     <img src="{{ asset('i/bg_left_arrow.png') }}" alt="arrow" class="left_arrow">
     <img src="{{ asset('i/bg_right_arrow.png') }}" alt="arrow" class="right_arrow">

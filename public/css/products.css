@@ -195,6 +195,7 @@ section#products .swiper-actions {
 section#products .social-items {
     display: flex;
     justify-content: flex-end;
+    align-content: center;
     gap: 15px;
     margin-top: -4em;
     padding: 0 50px;
@@ -203,6 +204,8 @@ section#products .social-items {
 section#products .social-items .social-item {
     cursor: pointer;
     transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    display: flex;
+    align-items: center;
 }
 
 section#products .social-items .social-item:hover {
