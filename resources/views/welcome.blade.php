@@ -83,16 +83,10 @@
     </div>
     <img src="{{ asset('i/bg_left_arrow.png') }}" alt="arrow" class="left_arrow">
     <img src="{{ asset('i/bg_right_arrow.png') }}" alt="arrow" class="right_arrow">
+    <img src="{{ asset('i/right_lightning.png') }}" alt="" class="right_lightning">
+    <img src="{{ asset('i/left_lightning.png') }}" alt="" class="left_lightning">
 </section>
 
-<script type="text/javascript" src=" {{ asset('js/script.js')}}"></script>
-
-<script type="text/javascript">
-    $(document).ready(() => {
-        window.index()
-        $('[data-remodal-id=promo_closed]').remodal().open()
-    })
-</script>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script>
